@@ -20,7 +20,7 @@ const ParentComponent = () => {
 
 const ChildComponent = ({inputValue, onInputChange}) => {
     return(
-        <div>
+        <div className="child">
             <h2>Child Component</h2>
             <input type="text" value={inputValue} 
             onChange={onInputChange}/>
